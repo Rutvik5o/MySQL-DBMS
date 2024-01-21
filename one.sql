@@ -30,7 +30,7 @@ SELECT e_name, e_Salary FROM EMPLOYEE WHERE e_desig = 'Manager';
 
 -- 5) Increase salary by 1000 and rename it as Increment
 UPDATE EMPLOYEE SET e_Salary = e_Salary + 1000; 
-//Select e_name,e_Salary + 1000 as increment from employee;
+--Select e_name,e_Salary + 1000 as increment from employee;
 
 -- 6) Update designation as "Leader" whose id is '3'
 UPDATE EMPLOYEE SET e_desig = 'Leader' WHERE e_id = 3;
