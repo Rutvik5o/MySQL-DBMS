@@ -69,13 +69,6 @@ mysql> insert into department values  (1, 'HR Department', 101, 1),
 (4, 'Marketing Department', 104, 4),
 (5, 'Operations Department', 105, 5);
 
-mysql> insert into department values  (1, 'HR Department', 101, 1),
-(2, 'IT Department', 102, 2),
-(3, 'Finance Department', 103, 3),
-(4, 'Marketing Department', 104, 4),
-(5, 'Operations Department', 105, 5);
-
-
 mysql> insert into jobs values (1, 'Software Engineer', 60000.00, 90000),
 (2, 'Data Analyst', 50000.50, 80000),
 (3, 'Marketing Specialist', 45000.75, 75000),
